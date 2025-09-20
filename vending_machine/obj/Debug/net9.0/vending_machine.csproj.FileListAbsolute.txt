@@ -1,0 +1,15 @@
+/Users/alinaaksanova/VS/OOP_labs/vending_machine/bin/Debug/net9.0/vending_machine
+/Users/alinaaksanova/VS/OOP_labs/vending_machine/bin/Debug/net9.0/vending_machine.deps.json
+/Users/alinaaksanova/VS/OOP_labs/vending_machine/bin/Debug/net9.0/vending_machine.runtimeconfig.json
+/Users/alinaaksanova/VS/OOP_labs/vending_machine/bin/Debug/net9.0/vending_machine.dll
+/Users/alinaaksanova/VS/OOP_labs/vending_machine/bin/Debug/net9.0/vending_machine.pdb
+/Users/alinaaksanova/VS/OOP_labs/vending_machine/obj/Debug/net9.0/vending_machine.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alinaaksanova/VS/OOP_labs/vending_machine/obj/Debug/net9.0/vending_machine.AssemblyInfoInputs.cache
+/Users/alinaaksanova/VS/OOP_labs/vending_machine/obj/Debug/net9.0/vending_machine.AssemblyInfo.cs
+/Users/alinaaksanova/VS/OOP_labs/vending_machine/obj/Debug/net9.0/vending_machine.csproj.CoreCompileInputs.cache
+/Users/alinaaksanova/VS/OOP_labs/vending_machine/obj/Debug/net9.0/vending_machine.sourcelink.json
+/Users/alinaaksanova/VS/OOP_labs/vending_machine/obj/Debug/net9.0/vending_machine.dll
+/Users/alinaaksanova/VS/OOP_labs/vending_machine/obj/Debug/net9.0/refint/vending_machine.dll
+/Users/alinaaksanova/VS/OOP_labs/vending_machine/obj/Debug/net9.0/vending_machine.pdb
+/Users/alinaaksanova/VS/OOP_labs/vending_machine/obj/Debug/net9.0/vending_machine.genruntimeconfig.cache
+/Users/alinaaksanova/VS/OOP_labs/vending_machine/obj/Debug/net9.0/ref/vending_machine.dll
