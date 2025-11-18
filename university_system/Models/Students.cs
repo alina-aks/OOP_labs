@@ -14,7 +14,7 @@ namespace UniversitySystem.Models
 
             set
             {
-                if (studentName.IsNullOrEmpty(value))
+                if (string.IsNullOrEmpty(value))
                 {
                     throw new ArgumentException("Поле обязательно для заполнения");
                 }
@@ -27,7 +27,7 @@ namespace UniversitySystem.Models
 
             set
             {
-                if (studentId.IsNullOrEmpty(value))
+                if (string.IsNullOrEmpty(value))
                 {
                     throw new ArgumentException("Поле обязательно для заполнения");
                 }
@@ -41,7 +41,7 @@ namespace UniversitySystem.Models
 
             set
             {
-                if (studentFaculty.IsNullOrEmpty(value))
+                if (string.IsNullOrEmpty(value))
                 {
                     throw new ArgumentException("Поле обязательно для заполнения");
                 }
@@ -51,14 +51,14 @@ namespace UniversitySystem.Models
 
         public Student(string studentName, string studentId, string studentFaculty)
         {
-            name = studentName;
-            id = studentId;
-            faculty = studentFaculty;
+            StudentName = studentName;
+            StudentId = studentId;
+            StudentFaculty = studentFaculty;
         }
 
         public override string ToString()
         {
-            return $"{name}(id), факультет - {faculty}";
+            return $"{studentName}({studentId}), факультет - {studentFaculty}";
         }
 
 
