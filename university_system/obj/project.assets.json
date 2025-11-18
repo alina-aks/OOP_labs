@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alinaaksanova/VS/OOP_labs-1/vending_machine/vending_machine.csproj",
-      "projectName": "vending_machine",
-      "projectPath": "/Users/alinaaksanova/VS/OOP_labs-1/vending_machine/vending_machine.csproj",
+      "projectUniqueName": "/Users/alinaaksanova/VS/OOP_labs-1/lab1/lab1.csproj",
+      "projectName": "lab1",
+      "projectPath": "/Users/alinaaksanova/VS/OOP_labs-1/lab1/lab1.csproj",
       "packagesPath": "/Users/alinaaksanova/.nuget/packages/",
-      "outputPath": "/Users/alinaaksanova/VS/OOP_labs-1/vending_machine/obj/",
+      "outputPath": "/Users/alinaaksanova/VS/OOP_labs-1/lab1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/alinaaksanova/.nuget/NuGet/NuGet.Config"
