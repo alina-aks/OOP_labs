@@ -1,0 +1,15 @@
+/Users/alinaaksanova/VS/OOP_labs-1/university_system/obj/Debug/net9.0/university_system.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alinaaksanova/VS/OOP_labs-1/university_system/obj/Debug/net9.0/university_system.AssemblyInfoInputs.cache
+/Users/alinaaksanova/VS/OOP_labs-1/university_system/obj/Debug/net9.0/university_system.AssemblyInfo.cs
+/Users/alinaaksanova/VS/OOP_labs-1/university_system/obj/Debug/net9.0/university_system.csproj.CoreCompileInputs.cache
+/Users/alinaaksanova/VS/OOP_labs-1/university_system/obj/Debug/net9.0/university_system.sourcelink.json
+/Users/alinaaksanova/VS/OOP_labs-1/university_system/bin/Debug/net9.0/university_system
+/Users/alinaaksanova/VS/OOP_labs-1/university_system/bin/Debug/net9.0/university_system.deps.json
+/Users/alinaaksanova/VS/OOP_labs-1/university_system/bin/Debug/net9.0/university_system.runtimeconfig.json
+/Users/alinaaksanova/VS/OOP_labs-1/university_system/bin/Debug/net9.0/university_system.dll
+/Users/alinaaksanova/VS/OOP_labs-1/university_system/bin/Debug/net9.0/university_system.pdb
+/Users/alinaaksanova/VS/OOP_labs-1/university_system/obj/Debug/net9.0/university_system.dll
+/Users/alinaaksanova/VS/OOP_labs-1/university_system/obj/Debug/net9.0/refint/university_system.dll
+/Users/alinaaksanova/VS/OOP_labs-1/university_system/obj/Debug/net9.0/university_system.pdb
+/Users/alinaaksanova/VS/OOP_labs-1/university_system/obj/Debug/net9.0/university_system.genruntimeconfig.cache
+/Users/alinaaksanova/VS/OOP_labs-1/university_system/obj/Debug/net9.0/ref/university_system.dll

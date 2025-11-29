@@ -5,13 +5,12 @@ namespace UniversitySystem.Models
     public class Student
     {
         private string studentName;
-        private string studentId;
+        private int studentId;
         private string studentFaculty;
 
         public string StudentName
         {
             get => studentName;
-
             set
             {
                 if (string.IsNullOrEmpty(value))
@@ -21,13 +20,13 @@ namespace UniversitySystem.Models
                 studentName = value;
             }
         }
-        public string StudentId
+
+        public int StudentId
         {
             get => studentId;
-
             set
             {
-                if (string.IsNullOrEmpty(value))
+                if (value == default(int))
                 {
                     throw new ArgumentException("Поле обязательно для заполнения");
                 }
@@ -38,7 +37,6 @@ namespace UniversitySystem.Models
         public string StudentFaculty
         {
             get => studentFaculty;
-
             set
             {
                 if (string.IsNullOrEmpty(value))
@@ -49,7 +47,7 @@ namespace UniversitySystem.Models
             }
         }
 
-        public Student(string studentName, string studentId, string studentFaculty)
+        public Student(string studentName, int studentId, string studentFaculty)
         {
             StudentName = studentName;
             StudentId = studentId;
@@ -60,7 +58,5 @@ namespace UniversitySystem.Models
         {
             return $"{studentName}({studentId}), факультет - {studentFaculty}";
         }
-
-
     }
 }
