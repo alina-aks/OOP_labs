@@ -6,7 +6,7 @@ class Program
     {
         var inventory = new Inventory();
         
-        // Добавляем несколько начальных предметов для демонстрации
+        
         var sword = ItemFactory.CreateWeapon("Стальной меч", 15);
         var armor = ItemFactory.CreateArmor("Кожаный доспех", 8);
         var healthPotion = ItemFactory.CreatePotion("Зелье здоровья", "Восстанавливает 50 HP", 3);
@@ -17,7 +17,7 @@ class Program
         inventory.AddItem(healthPotion);
         inventory.AddItem(questItem);
         
-        // Создаем дополнительное оружие через фабрику
+        
         var axe = ItemFactory.CreateWeapon("Боевой топор", 18);
         inventory.AddItem(axe);
         
@@ -114,19 +114,19 @@ class Program
         
         switch (typeChoice)
         {
-            case "1": // Оружие
+            case "1": 
                 AddWeaponMenu(inventory);
                 break;
                 
-            case "2": // Броня
+            case "2": 
                 AddArmorMenu(inventory);
                 break;
                 
-            case "3": // Зелье
+            case "3": 
                 AddPotionMenu(inventory);
                 break;
                 
-            case "4": // Квестовый предмет
+            case "4": 
                 AddQuestItemMenu(inventory);
                 break;
                 

@@ -18,7 +18,6 @@ namespace UniversitySystem.Services
             students = new List<Student>();
         }
 
-        // Бизнес-логика назначения преподавателя на курс
         public void AssignTeacherToCourse(int teacherId, string courseId)
         {
             var teacher = FindTeacherById(teacherId);
@@ -39,7 +38,6 @@ namespace UniversitySystem.Services
             Console.WriteLine($"Преподаватель {teacher.TeacherName} назначен на курс '{course.CourseName}'");
         }
 
-        // Бизнес-логика удаления преподавателя с курса
         public void RemoveTeacherFromCourse(int teacherId, string courseId)
         {
             var teacher = FindTeacherById(teacherId);
@@ -56,8 +54,6 @@ namespace UniversitySystem.Services
 
             Console.WriteLine($"Преподаватель {teacher.TeacherName} удален с курса '{course.CourseName}'");
         }
-
-        // Бизнес-логика записи студента на курс
         public void EnrollStudentToCourse(int studentId, string courseId)
         {
             var student = FindStudentById(studentId);
@@ -76,7 +72,6 @@ namespace UniversitySystem.Services
             Console.WriteLine($"Студент {student.StudentName} записан на курс '{course.CourseName}'");
         }
 
-        // Бизнес-логика удаления студента с курса
         public void RemoveStudentFromCourse(int studentId, string courseId)
         {
             var student = FindStudentById(studentId);
@@ -93,7 +88,6 @@ namespace UniversitySystem.Services
             Console.WriteLine($"Студент {student.StudentName} удален с курса '{course.CourseName}'");
         }
 
-        // Бизнес-логика запуска онлайн-сессии
         public void StartOnlineSession(string courseId)
         {
             var course = FindCourseById(courseId);
@@ -114,7 +108,6 @@ namespace UniversitySystem.Services
             }
         }
 
-        // Бизнес-логика проведения офлайн-занятия
         public void ConductClass(string courseId)
         {
             var course = FindCourseById(courseId);
@@ -128,7 +121,6 @@ namespace UniversitySystem.Services
             }
         }
 
-        // Показать информацию о преподавателе
         public void ShowTeacherInfo(int teacherId)
         {
             var teacher = FindTeacherById(teacherId);
@@ -146,7 +138,6 @@ namespace UniversitySystem.Services
             }
         }
 
-        // Показать информацию о курсе
         public void ShowCourseInfo(string courseId)
         {
             var course = FindCourseById(courseId);
@@ -156,12 +147,11 @@ namespace UniversitySystem.Services
             Console.WriteLine($"Информация о курсе:");
             Console.WriteLine($"  ID: {course.CourseId}");
             Console.WriteLine($"  Название: {course.CourseName}");
-            Console.WriteLine($"  Тип: {course.GetCourseType()}"); // Демонстрация полиморфизма
+            Console.WriteLine($"  Тип: {course.GetCourseType()}"); 
             Console.WriteLine($"  Описание: {course.Description}");
             Console.WriteLine($"  Преподаватель: {course.Teacher?.TeacherName ?? "Не назначен"}");
             Console.WriteLine($"  Количество студентов: {course.EnrolledStudents.Count}");
 
-            // Демонстрация полиморфизма через приведение типов
             if (course is OnlineCourse onlineCourse)
             {
                 Console.WriteLine($"  Платформа: {onlineCourse.Platform}");
@@ -176,7 +166,6 @@ namespace UniversitySystem.Services
             }
         }
 
-        // Показать студентов на курсе
         public void ShowStudentsOnCourse(string courseId)
         {
             var course = FindCourseById(courseId);
@@ -200,7 +189,6 @@ namespace UniversitySystem.Services
             }
         }
 
-        // Добавление курса в систему
         public void AddCourse(Course course)
         {
             if (course == null)
@@ -213,7 +201,6 @@ namespace UniversitySystem.Services
             Console.WriteLine($"Курс '{course.CourseName}' добавлен в систему");
         }
 
-        // Удаление курса из системы
         public void RemoveCourse(string courseId)
         {
             var course = FindCourseById(courseId);
@@ -224,7 +211,6 @@ namespace UniversitySystem.Services
             Console.WriteLine($"Курс '{course.CourseName}' удален из системы");
         }
 
-        // Добавление преподавателя в систему
         public void AddTeacher(Teacher teacher)
         {
             if (teacher == null)
@@ -237,7 +223,6 @@ namespace UniversitySystem.Services
             Console.WriteLine($"Преподаватель '{teacher.TeacherName}' добавлен в систему");
         }
 
-        // Добавление студента в систему
         public void AddStudent(Student student)
         {
             if (student == null)
@@ -250,13 +235,11 @@ namespace UniversitySystem.Services
             Console.WriteLine($"Студент '{student.StudentName}' добавлен в систему");
         }
 
-        // Получить курсы преподавателя
         public List<Course> GetCoursesByTeacher(int teacherId)
         {
             return courses.Where(c => c.Teacher?.TeacherId == teacherId).ToList();
         }
 
-        // Показать все курсы
         public void ShowAllCourses()
         {
             Console.WriteLine("\n=== ВСЕ КУРСЫ ===");
@@ -267,7 +250,6 @@ namespace UniversitySystem.Services
             }
         }
 
-        // Показать всех преподавателей
         public void ShowAllTeachers()
         {
             Console.WriteLine("\n=== ВСЕ ПРЕПОДАВАТЕЛИ ===");
@@ -283,7 +265,6 @@ namespace UniversitySystem.Services
             return courses;
         }
 
-        // Показать всех студентов
         public void ShowAllStudents()
         {
             Console.WriteLine("\n=== ВСЕ СТУДЕНТЫ ===");
@@ -293,19 +274,16 @@ namespace UniversitySystem.Services
             }
         }
 
-        // Поиск курса по ID
         public Course? FindCourseById(string courseId)
         {
             return courses.FirstOrDefault(c => c.CourseId == courseId);
         }
 
-        // Поиск преподавателя по ID
         public Teacher? FindTeacherById(int teacherId)
         {
             return teachers.FirstOrDefault(t => t.TeacherId == teacherId);
         }
 
-        // Поиск студента по ID
         public Student? FindStudentById(int studentId)
         {
             return students.FirstOrDefault(s => s.StudentId == studentId);

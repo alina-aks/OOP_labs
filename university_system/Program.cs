@@ -10,43 +10,34 @@ namespace UniversitySystem
 
         static void Main(string[] args)
         {
-            // Добавляем тестовые данные
             AddTestData();
-            
-            // Показываем меню
             ShowMenu();
         }
 
         static void AddTestData()
         {
-            // Преподаватели
             var teacher1 = new Teacher("Иванов Петр", 1);
             var teacher2 = new Teacher("Сидорова Мария", 2);
             
-            // Студенты
             var student1 = new Student("Алексеев Алексей", 101, "Информатика");
             var student2 = new Student("Петрова Анна", 102, "Экономика");
             var student3 = new Student("Смирнов Дмитрий", 103, "Информатика");
             
-            // Добавляем в систему
             service.AddTeacher(teacher1);
             service.AddTeacher(teacher2);
             service.AddStudent(student1);
             service.AddStudent(student2);
             service.AddStudent(student3);
             
-            // Создаем курсы
             var course1 = new OnlineCourse("C1", "Программирование C#", "Zoom", "zoom.com/csharp");
             var course2 = new OfflineCourse("C2", "Базы данных", "Аудитория 301", "Пн, Ср 10:00");
             
             service.AddCourse(course1);
             service.AddCourse(course2);
             
-            // Назначаем преподавателей
             service.AssignTeacherToCourse(1, "C1");
             service.AssignTeacherToCourse(2, "C2");
             
-            // Записываем студентов
             service.EnrollStudentToCourse(101, "C1");
             service.EnrollStudentToCourse(102, "C1");
             service.EnrollStudentToCourse(103, "C2");
