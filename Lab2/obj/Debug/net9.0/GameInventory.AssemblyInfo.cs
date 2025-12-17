@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("vending_machine")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("GameInventory")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+186d08b536f8f4b37692178381b0a1975e98e4e6")]
-[assembly: System.Reflection.AssemblyProductAttribute("vending_machine")]
-[assembly: System.Reflection.AssemblyTitleAttribute("vending_machine")]
+[assembly: System.Reflection.AssemblyProductAttribute("GameInventory")]
+[assembly: System.Reflection.AssemblyTitleAttribute("GameInventory")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
