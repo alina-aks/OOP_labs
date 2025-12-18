@@ -1,0 +1,15 @@
+/Users/alinaaksanova/VS/OOP_labs-1/Lab3/obj/Debug/net9.0/DeliverySystem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alinaaksanova/VS/OOP_labs-1/Lab3/obj/Debug/net9.0/DeliverySystem.AssemblyInfoInputs.cache
+/Users/alinaaksanova/VS/OOP_labs-1/Lab3/obj/Debug/net9.0/DeliverySystem.AssemblyInfo.cs
+/Users/alinaaksanova/VS/OOP_labs-1/Lab3/obj/Debug/net9.0/DeliverySystem.csproj.CoreCompileInputs.cache
+/Users/alinaaksanova/VS/OOP_labs-1/Lab3/obj/Debug/net9.0/DeliverySystem.sourcelink.json
+/Users/alinaaksanova/VS/OOP_labs-1/Lab3/bin/Debug/net9.0/DeliverySystem
+/Users/alinaaksanova/VS/OOP_labs-1/Lab3/bin/Debug/net9.0/DeliverySystem.deps.json
+/Users/alinaaksanova/VS/OOP_labs-1/Lab3/bin/Debug/net9.0/DeliverySystem.runtimeconfig.json
+/Users/alinaaksanova/VS/OOP_labs-1/Lab3/bin/Debug/net9.0/DeliverySystem.dll
+/Users/alinaaksanova/VS/OOP_labs-1/Lab3/bin/Debug/net9.0/DeliverySystem.pdb
+/Users/alinaaksanova/VS/OOP_labs-1/Lab3/obj/Debug/net9.0/DeliverySystem.dll
+/Users/alinaaksanova/VS/OOP_labs-1/Lab3/obj/Debug/net9.0/refint/DeliverySystem.dll
+/Users/alinaaksanova/VS/OOP_labs-1/Lab3/obj/Debug/net9.0/DeliverySystem.pdb
+/Users/alinaaksanova/VS/OOP_labs-1/Lab3/obj/Debug/net9.0/DeliverySystem.genruntimeconfig.cache
+/Users/alinaaksanova/VS/OOP_labs-1/Lab3/obj/Debug/net9.0/ref/DeliverySystem.dll
