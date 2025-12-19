@@ -9,8 +9,7 @@
 
 2.  O - Open/Closed (Принцип открытости/закрытости)
 
-       [IItemFactory.cs](Lab2/Factories/IItemFactory.cs) , 
-   [IUpgradable.cs](Lab2/Models/IUpgradable.cs) - классы открыты для расширения, но закрыты для модификации
+       Strategy - можно добавлять новые стратегии, без изменения существующего кода 
 
 3. L - Liskov Substitution (Принцип подстановки Барбары Лисков)
 
